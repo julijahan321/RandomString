@@ -1,0 +1,17 @@
+{
+  "name": "rawProjectSumit",
+  "version": "1.0.0",
+  "description": "rawProject",
+  "main": "index.js",
+  "author": "juli jahan",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "NODE_ENV=staging nodemon index.js",
+    "production":"NODE_ENV=production nodemon index.js"
+  },
+ 
+  "dependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
